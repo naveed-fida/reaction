@@ -1,12 +1,7 @@
+# About
+A trello clone built with rails and react
+
 # Rails + Webpack + React + Heroku
-
-## Where code should live
-
-* Ruby/Rails code should continue to live in its appropriate directory within
-  `app`.
-* React code should live in `app/javascript/components/`.
-* React component unit tests should use the `.test.js` extension and live next
-  to the components being tested within `app/javascript/components/`.
 
 ## Useful commands
 
@@ -34,10 +29,3 @@ $ bin/yarn run lint
 
 This template is deployed
 [here](https://obscure-fortress-25974.herokuapp.com/).
-
-## Testing
-
-Jest tests which affect state need to dispatch `CLEAR_STORE_DATA` after each
-test. If this is not done, the redux store is maintained between tests. I could
-not find a way to automatically do this after every test in the suite, and I
-could not figure out how to resolve my issue easily using a store mock.
